@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.yourlistapp.View.LoginFragment"
+        android:label="YourListApp"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_randomFragment"
+            app:destination="@id/randomFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/randomFragment"
+        android:name="com.example.yourlistapp.View.MemeFragment"
+        android:label="YourListApp"
+        tools:layout="@layout/fragment_random"/>
+    <fragment
+        android:id="@+id/groceriesFragment"
+        android:name="com.example.yourlistapp.View.GroceriesFragment"
+        android:label="YourListApp"
+        tools:layout="@layout/fragment_groceries" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.yourlistapp.View.HomeFragment"
+        android:label="YourListApp"
+        tools:layout="@layout/fragment_home" />
+</navigation>
