@@ -72,6 +72,9 @@ public class MainActivity extends AppCompatActivity {
                 if(item.getItemId() == R.id.randomFragment){
                     bundle.putString("meme", "list");
                 }
+                if(item.getItemId() == R.id.mapFragment){
+                    bundle.putString("map", "map");
+                }
                 navController.navigate(item.getItemId(), bundle);
                 drawerLayout.closeDrawers();
                 return true;
