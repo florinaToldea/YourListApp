@@ -30,7 +30,7 @@
             android:title="@string/menu_random"/>
 
         <item
-            android:id="@+id/map_bottom_nav"
+            android:id="@+id/fragment_map"
             android:icon="@drawable/ic_baseline_map_24"
             android:title="Map"/>
     </group>
