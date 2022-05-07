@@ -29,4 +29,9 @@
         android:name="com.example.yourlistapp.View.HomeFragment"
         android:label="YourListApp"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.example.yourlistapp.View.LibraryFragment"
+        android:label="fragment_library"
+        tools:layout="@layout/fragment_library" />
 </navigation>
