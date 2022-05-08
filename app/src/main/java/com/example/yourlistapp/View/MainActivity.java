@@ -69,6 +69,9 @@ public class MainActivity extends AppCompatActivity {
                 if(item.getItemId() == R.id.homeFragment){
                     bundle.putString("home", "list");
                 }
+                if(item.getItemId() == R.id.libraryFragment){
+                    bundle.putString("library", "list");
+                }
                 if(item.getItemId() == R.id.randomFragment){
                     bundle.putString("meme", "list");
                 }
