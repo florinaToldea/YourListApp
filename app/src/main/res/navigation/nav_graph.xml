@@ -17,26 +17,26 @@
     <fragment
         android:id="@+id/randomFragment"
         android:name="com.example.yourlistapp.View.MemeFragment"
-        android:label="YourListApp"
+        android:label="Memes"
         tools:layout="@layout/fragment_random"/>
     <fragment
         android:id="@+id/groceriesFragment"
         android:name="com.example.yourlistapp.View.GroceriesFragment"
-        android:label="YourListApp"
+        android:label="Groceries"
         tools:layout="@layout/fragment_groceries" />
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.yourlistapp.View.HomeFragment"
-        android:label="YourListApp"
+        android:label="Home Goods"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/libraryFragment"
         android:name="com.example.yourlistapp.View.LibraryFragment"
-        android:label="fragment_library"
+        android:label="Library"
         tools:layout="@layout/fragment_library" />
     <fragment
         android:id="@+id/mapFragment"
         android:name="com.example.yourlistapp.View.MapFragment"
-        android:label="fragment_map"
+        android:label="Map"
         tools:layout="@layout/fragment_map" />
 </navigation>
